@@ -1,0 +1,32 @@
+/* shared page & card spacing */
+.page-shell { max-width: 1120px; margin: 0 auto; padding: var(--space-5) var(--space-4) var(--space-8); }
+
+.section-card { margin-bottom: var(--space-8); }
+.section-card :deep(.p-card-content){ padding: var(--space-6) var(--space-6) var(--space-5); }
+.section-card :deep(.p-card-title){ padding: var(--space-5) var(--space-6) 0; }
+
+.section-hint { margin: .35rem 0 1rem; color: var(--text-2); }
+
+/* simple toolbar grid used on Ideas page */
+.toolbar {
+  display: grid;
+  grid-template-columns: minmax(300px, 1.4fr) minmax(200px, 1fr) minmax(200px, 1fr) auto;
+  gap: var(--space-3) var(--space-4);
+  align-items: center;
+  margin-bottom: var(--space-4);
+}
+.toolbar-right { margin-left: auto; display: inline-flex; align-items: center; gap: .5rem; }
+
+/* search icon padding */
+.p-input-icon-left :deep(.pi){ position:absolute; left:.75rem; top:50%; transform:translateY(-50%); }
+.p-input-icon-left :deep(input.p-inputtext){ padding-left: 2.5rem; }
+
+/* table cells */
+.ideas-table { width:100%; }
+.ideas-table :deep(table){ table-layout: fixed; }
+.ideas-table :deep(th), .ideas-table :deep(td){ padding: .85rem 1rem; }
+.ideas-table :deep(th){ white-space: nowrap; }
+
+/* misc */
+.ellipsis { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.empty { padding: 1.25rem; color: var(--text-2); }

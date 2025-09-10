@@ -1,0 +1,25 @@
+:root{
+  /* spacing scale */
+  --space-1: .25rem;
+  --space-2: .5rem;
+  --space-3: .75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+
+  /* radii & shadow */
+  --radius-lg: 12px;
+  --shadow-1: 0 2px 8px rgba(0,0,0,.06);
+
+  /* text colors layered on PrimeVue */
+  --text-1: var(--text-color);
+  --text-2: var(--text-color-secondary);
+}
+
+/* typography helpers */
+.h1 { font-size: 1.75rem; font-weight: 700; }
+.h2 { font-size: 1.25rem; font-weight: 700; }
+
+/* chips spacing */
+.chips-row { display:flex; gap:.35rem; flex-wrap:wrap; }

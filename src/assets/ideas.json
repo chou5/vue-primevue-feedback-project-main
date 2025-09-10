@@ -1,0 +1,41 @@
+[
+  {
+    "id": "i-1",
+    "title": "Dark mode",
+    "description": "Add a dark theme with accessible contrast.",
+    "category": "UI",
+    "status": "Planned",
+    "votes": 12,
+    "tags": [
+      "theme",
+      "accessibility"
+    ],
+    "createdAt": "2024-10-12T10:00:00.000Z"
+  },
+  {
+    "id": "i-2",
+    "title": "Slack integration",
+    "description": "Send notifications to Slack when state changes.",
+    "category": "Integrations",
+    "status": "New",
+    "votes": 5,
+    "tags": [
+      "notifications",
+      "webhooks"
+    ],
+    "createdAt": "2025-01-03T12:00:00.000Z"
+  },
+  {
+    "id": "i-3",
+    "title": "Faster load time",
+    "description": "Lazy-load heavy components and split chunks.",
+    "category": "Performance",
+    "status": "In Progress",
+    "votes": 18,
+    "tags": [
+      "perf",
+      "bundling"
+    ],
+    "createdAt": "2025-02-20T09:30:00.000Z"
+  }
+]
